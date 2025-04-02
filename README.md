@@ -1,85 +1,35 @@
-# React + Vite + TypeScript Template (react-vite-ui)
+# ProfileMap
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Dan5py/react-vite-ui/blob/main/LICENSE)
+ProfileMap is a React-based application built with Vite, TypeScript, Redux, and Tailwind CSS. It allows users to explore and manage profiles with features like adding, updating, and deleting profiles, as well as viewing profile details on an interactive map.
 
-A React + Vite template powered by shadcn/ui.
+## Features
+- **Profile Management**: Add, update, and delete profiles.
+- **Interactive Map**: View profile locations on a map.
+- **Admin Dashboard**: Manage profiles and view statistics.
+- **Dark Mode**: Toggle between light and dark themes.
 
-## 🎉 Features
+## Prerequisites
+- **Node.js**: Version 16 or higher.
+- **Package Manager**: `npm` or `pnpm`.
 
-- **React** - A JavaScript library for building user interfaces.
-- **Vite** - A fast, opinionated frontend build tool.
-- **TypeScript** - A typed superset of JavaScript that compiles to plain JavaScript.
-- **Tailwind CSS** - A utility-first CSS framework.
-- **Tailwind Prettier Plugin** - A Prettier plugin for formatting Tailwind CSS classes.
-- **ESLint** - A pluggable linting utility for JavaScript and TypeScript.
-- **PostCSS** - A tool for transforming CSS with JavaScript.
-- **Autoprefixer** - A PostCSS plugin to parse CSS and add vendor prefixes.
-- **shadcn/ui** - Beautifully designed components that you can copy and paste into your apps.
-
-## ⚙️ Prerequisites
-
-Make sure you have the following installed on your development machine:
-
-- Node.js (version 16 or above)
-- pnpm (package manager)
-
-## 🚀 Getting Started
-
-Follow these steps to get started with the react-vite-ui template:
-
+## Installation
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/dan5py/react-vite-ui.git
-   ```
+   git clone https://github.com/your-repo/profilemap.git
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd react-vite-ui
-   ```
-
-3. Install the dependencies:
+2. Install the dependencies:
 
    ```bash
    npm install
    ```
 
-4. Start the development server:
+3. Start the development server:
 
    ```bash
-   npm dev
+   npm run dev
    ```
 
-## 📜 Available Scripts
 
-- npm dev - Starts the development server.
-- npm build - Builds the production-ready code.
-- npm lint - Runs ESLint to analyze and lint the code.
-- npm preview - Starts the Vite development server in preview mode.
-
-## 📂 Project Structure
-
-The project structure follows a standard React application layout:
-
-```python
-react-vite-ui/
-  ├── node_modules/      # Project dependencies
-  ├── public/            # Public assets
-  ├── src/               # Application source code
-  │   ├── components/    # React components
-  │   │   └── ui/        # shadc/ui components
-  │   ├── styles/        # CSS stylesheets
-  │   ├── lib/           # Utility functions
-  │   ├── App.tsx        # Application entry point
-  │   └── index.tsx      # Main rendering file
-  ├── eslint.config.js     # ESLint configuration
-  ├── index.html         # HTML entry point
-  ├── postcss.config.js  # PostCSS configuration
-  ├── tailwind.config.ts # Tailwind CSS configuration
-  ├── tsconfig.json      # TypeScript configuration
-  └── vite.config.ts     # Vite configuration
-```
 
 ## 📄 License
 
